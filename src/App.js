@@ -1,16 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Components/Header";
 
-function Header() {
-  const str = "test";
+// function Header() {
+//   const str = "test";
 
-  return <p>{str}</p>;
-}
+//   return <p>{str}</p>;
+// }
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header name="Home 22" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>HEllo everyone</p>
